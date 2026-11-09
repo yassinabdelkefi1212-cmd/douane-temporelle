@@ -24,9 +24,9 @@ public class ResultActivity extends Activity {
         boolean approuve = recu.getBooleanExtra(Cles.cle(Cles.MATRICULE, Cles.VERDICT), false);
         String nom = recu.getStringExtra(Cles.cle(Cles.MATRICULE, Cles.NOM));
 
-        LinearLayout fond = findViewById(R.id.layout_fond_cf);
-        TextView message = findViewById(R.id.tv_message_cf);
-        Button btnNouveau = findViewById(R.id.btn_nouveau_cf);
+        LinearLayout fond = findViewById(R.id.layout_fond_ya);
+        TextView message = findViewById(R.id.tv_message_ya);
+        Button btnNouveau = findViewById(R.id.btn_nouveau_ya);
 
         // 2. تغيير لون الخلفية والرسالة حسب الحكم (أخضر / أحمر)
         if (approuve) {

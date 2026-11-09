@@ -32,18 +32,18 @@ public class VerificationActivity extends Activity {
         int ageTemporel = destination - naissance;
 
         // 3. عرض الملخص
-        ((TextView) findViewById(R.id.tv_nom_cf)).setText("Nom : " + nom);
-        ((TextView) findViewById(R.id.tv_age_cf)).setText("Âge temporel : " + ageTemporel + " ans");
-        ((TextView) findViewById(R.id.tv_trajet_cf)).setText("Trajet : " + naissance + " → " + destination);
-        ((TextView) findViewById(R.id.tv_motif_cf)).setText("Motif : " + motif);
+        ((TextView) findViewById(R.id.tv_nom_ya)).setText("Nom : " + nom);
+        ((TextView) findViewById(R.id.tv_age_ya)).setText("Âge temporel : " + ageTemporel + " ans");
+        ((TextView) findViewById(R.id.tv_trajet_ya)).setText("Trajet : " + naissance + " → " + destination);
+        ((TextView) findViewById(R.id.tv_motif_ya)).setText("Motif : " + motif);
 
-        btnApprouver = findViewById(R.id.btn_approuver_cf);
-        btnRefuser = findViewById(R.id.btn_refuser_cf);
+        btnApprouver = findViewById(R.id.btn_approuver_ya);
+        btnRefuser = findViewById(R.id.btn_refuser_ya);
 
         // 4. الشرط: "Modification du passé" والفرق عدد أولي => تعطيل زر الموافقة منذ التحميل
         if ("Modification du passé".equals(motif) && estPremier(ageTemporel)) {
             btnApprouver.setEnabled(false);
-            TextView alerte = findViewById(R.id.tv_alerte_cf);
+            TextView alerte = findViewById(R.id.tv_alerte_ya);
             alerte.setText("⚠ Paradoxe détecté : " + ageTemporel + " est un nombre premier !");
             alerte.setVisibility(View.VISIBLE);
         }

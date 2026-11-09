@@ -9,7 +9,7 @@
     android:padding="8dp">
 
     <ImageView
-        android:id="@+id/img_photo_cf"
+        android:id="@+id/img_photo_ya"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="0.3"
@@ -24,7 +24,7 @@
         android:padding="12dp">
 
         <TextView
-            android:id="@+id/tv_titre_passeport_cf"
+            android:id="@+id/tv_titre_passeport_ya"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -34,46 +34,46 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tv_nom_cf"
+            android:id="@+id/tv_nom_ya"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tv_titre_passeport_cf"
+            android:layout_below="@id/tv_titre_passeport_ya"
             android:layout_marginTop="16dp"
             android:textColor="#000000"
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/tv_age_cf"
+            android:id="@+id/tv_age_ya"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tv_nom_cf"
+            android:layout_below="@id/tv_nom_ya"
             android:layout_marginTop="8dp"
             android:textColor="#000000"
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/tv_trajet_cf"
+            android:id="@+id/tv_trajet_ya"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tv_age_cf"
+            android:layout_below="@id/tv_age_ya"
             android:layout_marginTop="8dp"
             android:textColor="#000000"
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/tv_motif_cf"
+            android:id="@+id/tv_motif_ya"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tv_trajet_cf"
+            android:layout_below="@id/tv_trajet_ya"
             android:layout_marginTop="8dp"
             android:textColor="#000000"
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/tv_alerte_cf"
+            android:id="@+id/tv_alerte_ya"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tv_motif_cf"
+            android:layout_below="@id/tv_motif_ya"
             android:layout_marginTop="12dp"
             android:textColor="#C62828"
             android:textSize="14sp"
@@ -81,17 +81,17 @@
             android:visibility="gone" />
 
         <Button
-            android:id="@+id/btn_refuser_cf"
+            android:id="@+id/btn_refuser_ya"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:text="@string/btn_refuser" />
 
         <Button
-            android:id="@+id/btn_approuver_cf"
+            android:id="@+id/btn_approuver_ya"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_above="@id/btn_refuser_cf"
+            android:layout_above="@id/btn_refuser_ya"
             android:text="@string/btn_approuver" />
 
     </RelativeLayout>

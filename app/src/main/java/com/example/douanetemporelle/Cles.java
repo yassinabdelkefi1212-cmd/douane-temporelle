@@ -7,8 +7,8 @@ package com.example.douanetemporelle;
  */
 public class Cles {
 
-    // 3. آخر 4 أرقام من بطاقة الطالب (غيّرها برقمك الحقيقي)
-    public static final String MATRICULE = "1234";
+    // 3. آخر 4 أرقام من بطاقة الطالب (رقم بطاقة الطالب)
+    public static final String MATRICULE = "4521";
 
     // 4. أسماء المفاتيح الأساسية (بدون البادئة)
     public static final String NOM = "NOM_VOYAGEUR";

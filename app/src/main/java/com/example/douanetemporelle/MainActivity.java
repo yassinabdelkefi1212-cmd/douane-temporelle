@@ -27,11 +27,11 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         // 2. ربط العناصر بالـ layout
-        etNom = findViewById(R.id.et_nom_cf);
-        etNaissance = findViewById(R.id.et_naissance_cf);
-        etDestination = findViewById(R.id.et_destination_cf);
-        spinnerMotif = findViewById(R.id.spinner_motif_cf);
-        btnInspecter = findViewById(R.id.btn_inspecter_cf);
+        etNom = findViewById(R.id.et_nom_ya);
+        etNaissance = findViewById(R.id.et_naissance_ya);
+        etDestination = findViewById(R.id.et_destination_ya);
+        spinnerMotif = findViewById(R.id.spinner_motif_ya);
+        btnInspecter = findViewById(R.id.btn_inspecter_ya);
 
         // 3. ملء القائمة المنسدلة بأسباب السفر
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(

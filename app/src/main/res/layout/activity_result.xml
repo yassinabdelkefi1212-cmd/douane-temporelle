@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/layout_fond_cf"
+    android:id="@+id/layout_fond_ya"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
@@ -8,7 +8,7 @@
     android:padding="24dp">
 
     <TextView
-        android:id="@+id/tv_message_cf"
+        android:id="@+id/tv_message_ya"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -17,7 +17,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btn_nouveau_cf"
+        android:id="@+id/btn_nouveau_ya"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"

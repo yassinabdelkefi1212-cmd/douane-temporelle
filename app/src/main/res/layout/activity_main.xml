@@ -8,7 +8,7 @@
     android:padding="24dp">
 
     <TextView
-        android:id="@+id/tv_titre_main_cf"
+        android:id="@+id/tv_titre_main_ya"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
@@ -18,7 +18,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/et_nom_cf"
+        android:id="@+id/et_nom_ya"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
@@ -27,7 +27,7 @@
         android:padding="12dp" />
 
     <EditText
-        android:id="@+id/et_naissance_cf"
+        android:id="@+id/et_naissance_ya"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -38,7 +38,7 @@
         android:padding="12dp" />
 
     <EditText
-        android:id="@+id/et_destination_cf"
+        android:id="@+id/et_destination_ya"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -49,7 +49,7 @@
         android:padding="12dp" />
 
     <TextView
-        android:id="@+id/tv_label_motif_cf"
+        android:id="@+id/tv_label_motif_ya"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -58,14 +58,14 @@
         android:textSize="16sp" />
 
     <Spinner
-        android:id="@+id/spinner_motif_cf"
+        android:id="@+id/spinner_motif_ya"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
         android:padding="8dp" />
 
     <Button
-        android:id="@+id/btn_inspecter_cf"
+        android:id="@+id/btn_inspecter_ya"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
